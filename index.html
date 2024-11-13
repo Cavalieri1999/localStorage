@@ -1,13 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <button id="modal">Realizar Cadastro</button>
+    </header>
+    <dialog  class="telaDeCadastro">
+        <form action="/perfil.html">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="" id="email">
+            </div>
+            <div>
+                <label for="Telefone">Telefone</label>
+                <input type="tel" id="tel">
+            </div>
+            <div>
+                <label for="cpf">CPF</label>
+                <input type="number" id="cpf">
+            </div>
+            <div>
+                <label for="Senha">Senha</label>
+                <input type="password" id="senha" autocomplete="current-password">
+            </div>
+
+            <input type="submit" value="Cadastrar" class="enviarDados">
+        </form>
+    </dialog>
 
 
 
@@ -16,8 +46,9 @@
 
 
 
-    <script src="/assets/js/main.js"> 
+    <script src="/assets/js/main.js">
 
     </script>
 </body>
+
 </html>

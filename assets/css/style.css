@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #F0F2F5;
+}
+header{
+    background-color: #4A90E2;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header button{
+    height: 4vh;
+    background-color: #8280a7;
+    border: none;
+    padding: 10px;
+}
+div{
+    margin: 3%;
+}
+dialog{
+    width: 25%;
+    display: grid;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F0F2F5;
+    color: #333333;
+}
+input{
+    outline: none;
+}
+dialog:not([open]) {
+    display: none;
+}
+
+input[type="submit"]{
+    margin: 1% 40%;
+    
+}
