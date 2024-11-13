@@ -19,9 +19,10 @@ buttonModal.addEventListener('click', () => {
 var submit = document.querySelector('.enviarDados')
 
 submit.addEventListener('click', ()=>{
+    alert("Cadastro Realizado com sucesso, agradecemos a confiança")
     localStorage.setItem('nome', nome.value)
     localStorage.setItem('email', email.value)
     localStorage.setItem('telefone', telefone.value)
     localStorage.setItem('cpf', cpf.value)
-
 })
+ 

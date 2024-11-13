@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+header{
+    background-color: #4A90E2;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+input{
+    margin: 3% 0;
+}
+
+dialog{
+    width: 25%;
+    display: grid;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F0F2F5;
+    color: #333333;
+}
+dialog:not([open]) {
+    display: none;
+}
+header button{
+    height: 4vh;
+    background-color: #8280a7;
+    border: none;
+    padding: 10px;
+}
+input[type="submit"]{
+    margin: 1% 30%;
+    
+}
